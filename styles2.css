@@ -1,0 +1,107 @@
+.h1{
+    text-align: center;
+    font-size: 100px;
+}
+.main{
+    background-color:rgb(34, 2, 216);
+    color:antiquewhite;
+    font: size 75px;
+}
+#title{
+    text-align: center;
+}
+#description{
+    text-align: center;
+}
+#survey-form{
+    
+}
+div{
+    background-color: indigo;
+    width:100%;
+    max-width:500px;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding: 10px;
+}
+div p{
+    display:inline-block;
+    font-size:18px;
+    display: block;
+    text-align: left;
+}
+#name{
+    width:100%;
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    color:grey;
+    border-color: rgb(154, 218, 197);
+    
+   
+}
+#email{
+    width:100%;
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    color:grey;
+    border-color: rgb(154, 218, 197);
+
+   
+}
+#number{
+    width:100%;
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    color:grey;
+    border-color: rgb(154, 218, 197);
+   
+}
+#age{
+    width:100%;
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    color:grey;
+    border-color: rgb(154, 218, 197);
+   
+}
+#dropdown{
+    width:100%;
+    text-align:left;
+    margin-left:auto;
+    margin-right:auto;
+    color:black;
+    border-color: rgb(154, 218, 197);
+   
+}
+#age:hover{
+    color:black;
+    
+}
+#name:hover{
+    color:black;
+    
+}
+#submit{
+    padding:20px;
+    margin-top:20px;
+    width:100%;
+    background-color:green;
+    color:white;
+    border-radius:12px;
+}
+#submit:hover{
+    background-color:red;
+}
+input{
+    margin:15px;
+}
+
+
+

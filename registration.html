@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href ="styles.css">
+    <title>ESF Hackathon Survey</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body class ="main">
+    <main>
+    <header>
+        <h1 id="title">ESF Hackathon Survey</h1>
+        <p id='description'>ESF Hackathon Survey Form <br>
+            Thank you for taking the time to help us 
+            improve the platform</p>
+
+    </header>
+    <div>
+    
+        <h1>Survey Form</h1>
+        <form id="survey-form">
+        <p><label for="name" id ="name-label">Name:</label></p>
+            <p><input id ="name"type ="text" name ="name" required  placeholder ="Enter your name"></p>
+    
+        <p><label for="Email" id ="email-label">Email:</label></p>
+            <p><input id ="email"type ="email" name ="email" required placeholder="Enter your Email"></p>
+      
+        <p><label for="Age" id ="age-label">Age (Optional)</label></p>
+            <p><input id ="age"type ="text" name ="email" placeholder ="Enter your Age"></p>
+       
+        <p><label for="Number" id="number-label">Phone no</label></p>
+            <p><input id ="number"type ="number" name ="email" required placeholder ="+91" max ="9999999999" min=1000000000 ></p>
+        <p><label for ="challenge">Which option best describes your current role?
+        </label></p>
+            <p><select name ="challenge" id = "dropdown" required>
+            <option value="Community">None</option>
+            <option value="student">Student</option>
+            <option value="fulltimejob">Full time Job</option>
+            <option value="fulltimelearner">Full Time Learner</option>
+            <option value="nottosay">Prefer not to say</option>
+        </select></p>
+        <p><label for ="recommend">Would you recommend 
+            freeCodeCamp to a friend?</label></p>
+        <p><input name ="recommend" value ="definitely" type="radio">Definitely</p>
+        <p><input name ="recommend" value ="no" type="radio">Maybe</p>
+<p><input name ="recommend" value ="no" type="radio">No</p>
+<p><label for ="improve">What would you like to see improved? (Check all that apply)</label></p>
+<p><input type ="checkbox" name ="improve" value="Front-end Projects">Front-end Projects</p>
+<p><input type ="checkbox" name ="improve" value="Back-end Projects">Back-end Projects</p>
+<p><input type ="checkbox" name ="improve" value="Data Visualization">Data Visualization</p>
+<p><input type ="checkbox" name ="improve" value="Challenges">Challenges</p>
+<p><input type ="checkbox" name ="improve" value="Open Source Community">Open Source Community</p>
+<p><input type ="checkbox" name ="improve" value="Gitter help rooms">Gitter help rooms</p>
+<p><input type ="checkbox" name ="improve" value="Videos">Videos</p>
+<p><input type ="checkbox" name ="improve" value="City Meetups">City Meetups</p>
+<p><input type ="checkbox" name ="improve" value="Wiki">Wiki</p>
+    <p><input type ="checkbox" name ="improve" value="Forum">Forum</p>
+    <p><input type ="checkbox" name ="improve" value="Additional Courses">Additional Courses</p>
+    <p><label for ="comments">Any comments or suggestions?</label></p>
+    <textarea name ="comments"rows= "5" cols ="75"></textarea>
+    <button type = "submit" id="submit">Submit</button>
+    </form>
+    </div>
+    </main>
+</body>
+</html>
